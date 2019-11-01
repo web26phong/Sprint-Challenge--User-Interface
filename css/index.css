@@ -75,6 +75,24 @@ header {
     display: flex;
     flex-direction: column;
     align-content: space-around;
+    padding-bottom: 2%;
+}
+
+header .nav {
+    display: flex;
+    flex-wrap: nowrap row;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+header .nav a{
+    color: black;
+    text-decoration: none;
+    margin: 5%;
+}
+
+header .banner img{
+    width: 100%;
 }
 
 .top-content {
