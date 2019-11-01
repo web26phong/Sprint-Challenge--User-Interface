@@ -208,3 +208,34 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.pageDescription {
+    padding: 3%;
+}
+
+/******** about.html specific code starts ****/
+
+.aboutContent {
+    border-top: dashed 1px black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.aboutContent div{
+    width: 46%;
+    margin: 2%;
+    padding: 2% 0;
+    border-bottom: dashed black 1px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.aboutContent div img,
+.aboutContent div h4,
+.aboutContent div p,
+.aboutContent div a{
+    width: 100%;
+    margin: 2% 0;
+}
