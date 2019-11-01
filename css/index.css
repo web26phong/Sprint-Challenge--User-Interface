@@ -256,7 +256,7 @@ footer nav a {
     display: flex;
     border: solid black 2px;
     border-radius: 8px;
-    width: 33%;
+    width: 35%;
     align-items: center;
     justify-content: center;
     margin: 2% 0;
@@ -264,8 +264,12 @@ footer nav a {
 
 .button span{
     text-align: center;
-    margin: 10%;
+    margin: 8% 10%;
 }
 
-
+.aboutFootNotes {
+    display: flex;
+    flex-direction: column;
+    padding: 2% 2% 5% 2%;
+}
 
