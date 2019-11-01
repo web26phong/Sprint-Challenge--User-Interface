@@ -71,6 +71,56 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    padding-bottom: 2%;
+}
+
+header .nav {
+    display: flex;
+    flex-wrap: nowrap row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    margin-right: 5%;
+    width: 100%;
+}
+
+header .nav a{
+    color: black;
+    text-decoration: none;
+    margin: 3% 8% 5% 0;
+}
+
+header .nav a:hover{
+    color: red;
+    transition: 0.3s;
+}
+
+header .nav img:hover{
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+header .banner img{
+    width: 100%;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +162,46 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box1{
+    background: teal;
+}
+
+.middle-content .boxes .box2{
+    background: gold;
+}
+
+.middle-content .boxes .box3{
+    background: cadetblue;
+}
+
+.middle-content .boxes .box4{
+    background: coral;
+}
+
+.middle-content .boxes .box5{
+    background: crimson;
+}
+
+.middle-content .boxes .box6{
+    background: forestgreen;
+}
+
+.middle-content .boxes .box7{
+    background: darkorchid;
+}
+
+.middle-content .boxes .box8{
+    background: hotpink;
+}
+
+.middle-content .boxes .box9{
+    background: indigo;
+}
+
+.middle-content .boxes .box10{
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +234,76 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+footer nav a:hover {
+    color: red;
+    transition: 0.3s;
+}
+
+.pageDescription {
+    padding: 2%;
+}
+
+/**** about-page code starts ****/
+
+.about-Page {
+    font-size: 25px;
+}
+
+.aboutContent {
+    border-top: dashed 1px black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.aboutContent div{
+    width: 46%;
+    margin: 2% 2% 4% 2%;
+    padding: 2% 0;
+    border-bottom: dashed black 1px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.aboutContent div img,
+.aboutContent div h4,
+.aboutContent div p{
+    width: 100%;
+    margin: 2% 0;
+}
+
+.aboutcontent div a{
+    margin: 2% 0;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    text-decoration: none;
+    display: flex;
+    border: solid black 2px;
+    border-radius: 8px;
+    width: 35%;
+    align-items: center;
+    justify-content: center;
+    margin: 2% 0;
+}
+
+.button:hover {
+    background: black;
+    color: white;
+}
+
+.button span{
+    text-align: center;
+    margin: 8% 10%;
+}
+
+.aboutFootNotes {
+    display: flex;
+    flex-direction: column;
+    padding: 2% 2% 5% 2%;
+}
+
